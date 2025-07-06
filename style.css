@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+header, footer, .hero-section {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.navigation-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+ .navigation-link {
+    text-decoration: none;
+}
+
+.title {
+    color: #F9FAF8;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 12rem;
+}
+
+.hero-title, .random-info-title {
+    font-weight: 900;
+}
+
+.hero-card {
+    height: 337px;
+}
+
+.hero-title-container {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-title {
+    font-size: 48px;
+}
+
+.navigation-link,.hero-subtext, .cta-subtext {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.signup-button {
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #3882F6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    width: 7rem;
+}
+
+.random-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 12rem;
+    gap: 3rem;
+}
+
+.random-info-cards {
+    display: flex;
+    margin: 1rem;
+}
+
+.cta-container, .random-info-card > img {
+    border-radius: 1rem;
+}
+
+.random-info-title, .quote {
+    font-size: 36px;
+}
+
+.random-info-title, .quote-section {
+    color: #1F2937;
+}
+
+figcaption {
+    color: rgba(20, 20, 20, 0.7);
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 5rem 24rem;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.cta-section {
+    padding: 5rem 12rem;
+}
+
+.cta-container {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 2.5rem 3rem;
+    background-color: #3882F6;
+    color: #fff;
+}
+
+.cta-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cta-button {
+    border: 1px solid white;
+}
+
+footer {
+    color: white;
+    padding: 2.5rem 3rem;
+    background-color: #1F2937;
+    text-align: center;
+}
